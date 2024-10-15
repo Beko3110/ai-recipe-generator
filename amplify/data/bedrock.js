@@ -2,7 +2,8 @@ export function request(ctx) {
     const { ingredients = [] } = ctx.args;
   
     // Construct the prompt with the provided ingredients
-    const prompt = `Suggest a recipe idea using these ingredients: ${ingredients.join(", ")}.`;
+    const prompt = `Your role is a Culinary AI Assistant and your task Given a list of ingredients, suggest a recipe idea that incorporates those ingredients harmoniously. Consider flavor profiles, textures, and cooking methods to create a balanced and delicious dish. The suggestion should be creative and adaptable to different dietary preferences or restrictions. Additionally, provide a detailed nutritional breakdown of the recipe, including the quantities of key nutrients such as calories, protein, carbohydrates, fats, and vitamins.
+ using these ingredients: ${ingredients.join(", ")}.`;
   
     // Return the request configuration
     return {
