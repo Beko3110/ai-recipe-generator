@@ -1,4 +1,5 @@
-# Serverless Web Application using Generative AI "AI Recipe Generator"
+# Serverless Web Application using Generative AI 
+"AI Recipe Generator"
 
 ![Architecture Diagram](./build-serverless-app-UI.png)
 
@@ -6,17 +7,18 @@
 
 ### Understanding the Core Components:
 
-To create a clear and concise illustration, let's break down the key components of your application:
+let's break down the key components of the application:
 
 #### Frontend:
 
-User Interface: An HTML-based web interface allows users to input a list of ingredients.
-Amplify Hosting: This service deploys and hosts the static frontend application.
-Backend:
+- User Interface: An HTML-based web interface allows users to input a list of ingredients.
+- Amplify Hosting: This service deploys and hosts the static frontend application.
 
-Amplify API: A GraphQL API built with AppSync to handle requests from the frontend.
-AWS Lambda: Serverless functions triggered by API requests to process ingredient data and generate recipes.
-Amazon Bedrock: A foundational AI service that provides access to large language models, including Claude 3 Sonnet.
+#### Backend:
+
+- Amplify API: A GraphQL API built with AppSync to handle requests from the frontend.
+- AWS Lambda: Serverless functions triggered by API requests to process ingredient data and generate recipes.
+- Amazon Bedrock: A foundational AI service that provides access to large language models, including Claude 3 Sonnet.
 
 #### Data Flow:
 
